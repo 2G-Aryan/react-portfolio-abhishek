@@ -6,12 +6,11 @@ import Technology from './Components/Technology'
 import Experience from './Components/Experience'
 import Project from './Components/Project'
 import Contact from './Components/Contact'
-import Footer from './Components/Footer'
-import Slider from './Components/Slider';
 import Carousel from './Components/Carousel'
 import s1 from './assets/s1.jpg'
 import s2 from './assets/s2.png'
 import s3 from './assets/projects/s3.jpg'
+import ReviewSection from './Components/ReviewSection'
 const App = () => {
 
  
@@ -36,13 +35,10 @@ const App = () => {
     <Technology />
     <Experience />
     <Project />
+   <div className='flex flex-col gap-0'>
     <Contact />
-    <div className="App">
-      <h1 className="text-4xl font-bold text-center mt-10">Reviews</h1>
-       < Slider />
-    </div>
-    <Footer />
-   
+   <ReviewSection />
+  </div>
     </div>
     </div>
   )

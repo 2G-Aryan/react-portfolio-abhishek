@@ -13,49 +13,49 @@ export const EXPERIENCES = [
     role: "Promoted 230+ Applications",
     company: "App Store,Play Store,etc",
     description: ` Promoted 230+ applications, significantly improving their ratings and user engagement.`,
-    technologies: ["---------", "---------", "---------", "---------"],
+    technologies: ["---------", "---------", "---------",],
   },
   {
     year: "YouTube Monetization:",
     role: "1k+ monetizations",
     company: "Youtube",
     description: `Achieved 1k+ monetizations on YouTube by optimizing channels and content strategies.`,
-    technologies: ["---------", "---------", "---------", "---------"],
+    technologies: ["---------", "---------", "---------", ],
   },
   {
     year: "Instagram Growth:",
     role: "500+ on Instagram ",
     company: "Instagram",
     description: ` Strategically increased user base by 500+ on Instagram through targeted campaigns and content creation.`,
-    technologies: ["---------", "---------", "---------", "---------"],
+    technologies: ["---------", "---------", "---------"],
   },
   {
     year: "Google My Business:",
     role: "Business profiles to new heights,",
     company: "Google",
     description: ` Elevated Google My Business profiles to new heights, improving visibility and customer engagement.`,
-    technologies: ["---------", "---------", "---------", "---------"],
+    technologies: ["---------", "---------", "---------", ],
   },
   {
     year: "Twitter Campaigns:",
     role: "Managed and created 200+ trending",
     company: "Twitter(X)",
     description: `Managed and created 200+ trending topics on Twitter, driving brand awareness and user interaction.`,
-    technologies: ["---------", "---------", "---------", "---------"],
+    technologies: ["---------", "---------", "---------"],
   },
   {
     year: "Website Reviews:",
     role: "All types of Websites",
     company: "Google",
     description: `  Conducted and facilitated comprehensive reviews for all types of websites, ensuring quality and effectiveness.`,
-    technologies: ["---------", "---------", "---------", "---------"],
+    technologies: ["---------", "---------", "---------"],
   },
   {
     year: "Website Development & SEO:",
     role: "Static and Dynamic",
     company: "Google",
     description: ` Developed and optimized over 30 websites, enhancing their search engine rankings and user experience through advanced SEO practices.`,
-    technologies: ["---------", "---------", "---------", "---------"],
+    technologies: ["---------", "---------", "---------",],
   },
 
 ];
@@ -92,6 +92,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Mumbai",
-  phoneNo: "+91 7710844344 ",
+  phoneNo: "+91 9082802998  ",
   email: "appgrowthhub@gmail.com",
 };

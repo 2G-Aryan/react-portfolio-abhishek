@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaSquareXTwitter } from 'react-icons/fa6'
+import { FaLinkedin } from 'react-icons/fa6'
 import { FaInstagram} from 'react-icons/fa6'
 import {  FaWhatsapp } from 'react-icons/fa'
 import { MdOutgoingMail } from "react-icons/md";
@@ -27,7 +27,7 @@ const Technology = () => {
       whileInView={{opacity:1 , y:0}}
       initial={{opacity:0, y:-100}}
       transition={{duration: 1.5}}
-      className='my-20 text-center text-4xl'>Follow us on</motion.h1>
+      className='my-20 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tighter text-transparent'>Follow us on</motion.h1>
       <motion.div
       whileInView={{opacity:1 , x:0}}
       initial={{opacity:0, x:-100}}
@@ -53,7 +53,14 @@ const Technology = () => {
          initial="initail"
          animate="animate"
         className='rounded-2xl border-4 border-neutral-800 p-4'>
-        <a href="#email"><MdOutgoingMail   size="23"  className='text-7x1 text-blue-400' /></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGlxztkZNxXhprdKsmbzcfXClQQrRSscnDCPdSDhHNRRrslppZRqjHJHPCnrmTKNCKStg"><MdOutgoingMail   size="23"  className='text-7x1 text-white-400' /></a>
+        </motion.div>
+        <motion.div 
+         variants={iconVarients(2)}
+         initial="initail"
+         animate="animate"
+        className='rounded-2xl border-4 border-neutral-800 p-4'>
+        <a href="https://www.linkedin.com/in/app-growth-hub-0b5b90301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin   size="23"  className='text-7x1 text-blue-400' /></a>
         </motion.div>
         <motion.div 
          variants={iconVarients(6)}
@@ -68,3 +75,4 @@ const Technology = () => {
 };
 
 export default Technology
+

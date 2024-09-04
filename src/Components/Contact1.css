@@ -7,6 +7,8 @@
 }
 
 form{
+    
+    top: auto;
     max-width: 600px;
     width: 100%;
     background-color: #fff;
