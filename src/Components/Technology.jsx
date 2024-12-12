@@ -60,7 +60,7 @@ const Technology = () => {
          initial="initail"
          animate="animate"
         className='rounded-2xl border-4 border-neutral-800 p-4'>
-        <a href="https://www.linkedin.com/in/app-growth-hub-0b5b90301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin   size="23"  className='text-7x1 text-blue-400' /></a>
+        <a href="https://www.linkedin.com/in/abhishek-maurya-826bb3325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin   size="23"  className='text-7x1 text-blue-400' /></a>
         </motion.div>
         <motion.div 
          variants={iconVarients(6)}
